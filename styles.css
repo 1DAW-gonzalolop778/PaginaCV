@@ -1,0 +1,38 @@
+/* styles.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Muy importante para evitar scroll nativo */
+  font-family: Arial, sans-serif;
+}
+
+#js-scroll {
+  overflow: hidden;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, p {
+  margin: 20px;
+}
+
+div{
+  width: 80%;
+}
+
+img{
+  float: left;
+  margin: 30px;
+}
+
+.gonzalo{
+  margin-top: 120px;
+  font-size: 50px;
+}
