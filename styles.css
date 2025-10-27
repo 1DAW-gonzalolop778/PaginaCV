@@ -19,20 +19,62 @@ section {
   align-items: center;
 }
 
-h1, h2, p {
-  margin: 20px;
-}
-
 div{
-  width: 80%;
+  width: 75%;
+  margin: auto;
 }
 
 img{
   float: left;
-  margin: 30px;
+  margin-right: 70px;
 }
 
 .gonzalo{
-  margin-top: 120px;
+  margin-top: 70px;
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.desarrollador{
+  font-size: 30px;
+}
+
+.acerca{
+  width: 60%;
+}
+
+.mi{
   font-size: 50px;
+}
+
+p{
+  font-size: 20px;
+}
+
+section:nth-of-type(1) {
+  background: linear-gradient(to bottom, #001f3f, #0a2f5f);
+}
+
+section:nth-of-type(2) {
+  background: linear-gradient(to bottom, #0a2f5f, #134f7f);
+}
+
+section:nth-of-type(3) {
+  background: linear-gradient(to bottom, #134f7f, #1c6fb0);
+}
+
+section:nth-of-type(4) {
+  background: linear-gradient(to bottom, #1c6fb0, #2b8fd8);
+}
+
+section:nth-of-type(5) {
+  background: linear-gradient(to bottom, #2b8fd8, #3ba9f0);
+}
+
+section:nth-of-type(6) {
+  background: linear-gradient(to bottom, #3ba9f0, #a8dcff);
+}
+
+.c1{
+  width: 100%;
 }
