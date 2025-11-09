@@ -1,16 +1,14 @@
-/* ===================== VARIABLES ===================== */
 :root {
-    --color-fondo: #DDD0C8;       /* Fondo principal */
-    --color-texto: #323232;       /* Texto principal */
-    --color-borde: #323232;       /* Bordes de cajas y divs */
-    --color-header-bg: #323232;   /* Fondo header */
-    --color-header-text: #DDD0C8; /* Texto header y botones */
+    --color-fondo: #DDD0C8;    
+    --color-texto: #323232;     
+    --color-borde: #323232;      
+    --color-header-bg: #323232;   
+    --color-header-text: #DDD0C8; 
     --color-boton-hover: rgba(255,255,255,0.1);
     --color-linea: #323232;
     --color-link: #323232;
 }
 
-/* ===================== BODY ===================== */
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -19,7 +17,6 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-/* ===================== HEADER ===================== */
 header {
     position: fixed;
     top: 20px;
@@ -53,7 +50,6 @@ header button:hover {
     border-radius: 40px;
 }
 
-/* ===================== SOBRE ===================== */
 .sobre {
     width: 80%;
     margin: 120px auto 0 auto;
@@ -96,7 +92,6 @@ header button:hover {
     color: #ffffff;
 }
 
-/* ===================== EXPERIENCIA ===================== */
 .experiencia {
     color: var(--color-texto);
     font-size: 60px;
@@ -157,7 +152,6 @@ header button:hover {
 
 .rega h1 a i, .chapa h1 a i, .itch h1 a i { font-size: 18px; }
 
-/* ===================== EDUCACION ===================== */
 .edu {
     display: flex;
     gap: 60px;
@@ -181,7 +175,6 @@ header button:hover {
 .eusa h2, .sotero h2 { font-size: 20px; margin-top: -10px; }
 .eusa p, .sotero p { font-size: 17px; margin-top: 30px; text-align: justify; }
 
-/* ===================== INGLES ===================== */
 .ing {
     width: 50%;
     background-color: var(--color-header-bg);
@@ -194,7 +187,6 @@ header button:hover {
     transition: all 0.3s ease-in-out;
 }
 
-/* ===================== CONTACTO ===================== */
 .cont {
     display: flex;
     gap: 160px;
@@ -224,10 +216,7 @@ header button:hover {
 .cont a:hover { color: var(--color-link-hover); }
 .cont i { font-size: 12px; }
 
-.rega h1 a,
-.chapa h1 a,
-.itch h1 a,
-.cont a {
+.rega h1 a, .chapa h1 a, .itch h1 a, .cont a {
     color: var(--color-header-text);
 }
 
