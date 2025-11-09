@@ -5,77 +5,283 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Curriculum</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
 
-<body>
-    <div id="js-scroll" data-scroll-container class="c1">
-        <section data-scroll-section>
-            <div>
-                <img src="imagenes/19_400.png" alt="Aun no hay imagen" width="300px" height="300px" data-scroll
-                    data-scroll-speed="-1">
-                <h1 data-scroll data-scroll-speed="-2" class="gonzalo">Gonzalo López Luque</h1>
-                <h2 data-scroll data-scroll-speed="-3" class="desarrollador">Desarrollador de aplicaciones web</h2>
-            </div>
+<body id="sobre">
+    <header>
+        <button><i class="fa-solid fa-moon"></i></button>
+        <button onclick="location.href='#sobre'">Sobre mi</button>
+        <button onclick="location.href='#experiencia'">Experiencia</button>
+        <button onclick="location.href='#educacion'">Educación</button>
+        <button onclick="location.href='#contacto'">Contacto</button>
+        <button>ENG</button>
+    </header>
 
-        </section>
-        <section data-scroll-section>
-            <div class="acerca">
-                <h2 data-scroll data-scroll-speed="3" class="mi">Acerca de mi</h2>
-                <p data-scroll data-scroll-speed="2">Desarrollador de Aplicaciones Web con experiencia programando con
-                    Java y en lenguaje de
-                    marcas con HTML, CSS y JavaScript.</p>
-                <p data-scroll data-scroll-speed="2">También manejo bases de datos con MariaDB y
-                    MySQL.</p>
-                <p data-scroll data-scroll-speed="2">Trabajo en equipo y creativo, con disponibilidad para
-                    trabajar y seguir ampliando mi formación.</p>
+    <div class="sobre">
+        <div><img src="imagenes/26fcf011-35cc-4e1a-899d-114b1f41103c.jpg" alt="Foto"></div>
+        <div>
+            <h1>Gonzalo López Luque</h1>
+            <h2>Desarrollador de Aplicaciones Web</h2>
+            <p>Programador Junior interesado tanto en el backend como el frontend. Me considero creativo y con capacidad
+                para trabajar en equipo. Busco seguir aprendiendo y aportar valor en proyectos que me permitan crecer
+                profesionalmente.</p>
+            <div class="tecnologias">
+                <i class="fa-brands fa-html5" title="HTML5"></i>
+                <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+                <i class="fa-solid fa-database" title="MariaDB"></i>
+                <i class="fa-brands fa-java" title="Java"></i>
+                <i class="fa-brands fa-js" title="JavaScript"></i>
+                <i class="fa-brands fa-cuttlefish" title="C#"></i>
+                <i class="fa-brands fa-git-alt" title="Git"></i>
+                <i class="fa-brands fa-github" title="GitHub"></i>
+                <i class="fa-brands fa-wordpress" title="WordPress"></i>
             </div>
-        </section>
-        <section data-scroll-section>
-            <div class="acerca">
-                <h2 data-scroll data-scroll-speed="3" class="mi">Educación</h2>
-                <p data-scroll data-scroll-speed="2">- Inglés con nivel de B2 por Cambridge</p>
-                <p data-scroll data-scroll-speed="2">- Grado de Animaciones 3D, Juegos y Entornos Interactivos</p>
-                <p data-scroll data-scroll-speed="2">- Grado de Desarrollo de Aplicaciones Web</p>
-            </div>
-        </section>
-        <section data-scroll-section>
-            <div class="acerca">
-                <h2 data-scroll data-scroll-speed="3" class="mi">Habilidades</h2>
-                <p data-scroll data-scroll-speed="2">- HTML</p>
-                <p data-scroll data-scroll-speed="2">- CSS</p>
-                <p data-scroll data-scroll-speed="2">- JavaScript</p>
-                <p data-scroll data-scroll-speed="2">- Java</p>
-                <p data-scroll data-scroll-speed="2">- MariaDB</p>
-
-            </div>
-        </section>
-        <section data-scroll-section>
-            <div class="acerca">
-                <h2 data-scroll data-scroll-speed="3" class="mi">Experiecia</h2>
-                <p data-scroll data-scroll-speed="2">Desarrollador por 3 meses en el
-                    videojuego “Chapatriste” publicado en la
-                    plataforma Steam</p>
-                <p data-scroll data-scroll-speed="2">Desarrollo de la página web de Regacom</p>
-                <p data-scroll data-scroll-speed="2">Desarrollo independiente de juegos para
-                    la plataforma itch.io entre los que se
-                    encuentran “The Right Amount”, “One Coin Chaos” y “Tricky Tracky Road”</p>
-            </div>
-        </section>
-        <section data-scroll-section>
-            <div>
-                <img src="imagenes/19_400.png" alt="Aun no hay imagen" width="300px" height="300px" data-scroll
-                    data-scroll-speed="-1">
-                <h1 data-scroll data-scroll-speed="-2" class="gonzalo">Gonzalo López Luque</h1>
-                <h2 data-scroll data-scroll-speed="-3" class="desarrollador">Desarrollador de aplicaciones web</h2>
-                <h2 data-scroll data-scroll-speed="-3" class="desarrollador">Telefono: 699 617 905</h2>
-            </div>
-
-        </section>
+        </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
-    <script src="app.js"></script>
+    <h1 class="experiencia" id="experiencia">Experiencia</h1>
+    <hr class="linea">
+    <div class="exp">
+        <div class="rega">
+            <img src="imagenes/fondo_regacom3.png" alt="">
+            <h1>
+                <a href="https://regacom.net/" target="_blank">
+                    Página web de Regacom
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </h1>
+            <p>En Regacom trabaje actualizando su página web para darle un toque más moderno y atractivo. Además me
+                enseñaron el funcionamiento de sus placas, que utilizan Python y Arduino para sus células de riego.</p>
+        </div>
+
+        <div class="chapa">
+            <img src="imagenes/capsule_616x353.jpg" alt="">
+            <h1>
+                <a href="https://store.steampowered.com/app/3034590/Chapatriste/" target="_blank">
+                    Chapatriste
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </h1>
+            <p>Chapatriste fue un proyecto que desarrollé junto con Timber Films, participando como Animador 3D
+                principalmente. Se encuentra en Steam y esta creado en Unity con programación en C#.</p>
+        </div>
+
+        <div class="itch">
+            <img src="imagenes/1_F3YLzPNNvCTBcomUowg8LQ.jpg" alt="">
+            <h1>
+                <a href="https://srzalo.itch.io/" target="_blank">
+                    Juegos en itch.io
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </h1>
+            <p>He participado en el desarrollo de multiples juegos en itch.io como programador y artista. Entre ellos se
+                encuentran "The Right Amount" o "One Coin Chaos".</p>
+        </div>
+    </div>
+
+    <h1 class="experiencia" id="educacion">Educación</h1>
+    <hr class="linea">
+
+    <div class="edu">
+        <div class="eusa">
+            <h1>Animaciones 3D, Juegos y Entorno Interactivos</h1>
+            <h2>EUSA</h2>
+            <p>Durante mi formación en el ciclo formativo de Animaciones 3D aprendí a modelar, animar y diseñar aplicado
+                al desarrollo de videojuegos.</p>
+        </div>
+        <div class="sotero">
+            <h1>Desarrollo de Aplicaciones Web</h1>
+            <h2>IES Sotero Hernandez</h2>
+            <p>En mi formación en el ciclo formativo de Desarrollo de Aplicaciones Web aprendí a usar diferentes
+                lenguajes de programación entre los que se encuentran HTML, CSS, JavaScript, MariaDB o Java.</p>
+        </div>
+    </div>
+    <div class="ing">
+        <h1>Inglés con nivel de B2 otorogado por Cambridge</h1>
+    </div>
+
+    <h1 class="experiencia" id="contacto">Contacto</h1>
+    <hr class="linea">
+    <div class="cont">
+        <div class="email">
+            <h1>Email</h1>
+            <p>correo@gmail.com</p>
+        </div>
+        <div class="linkedn">
+            <h1>Linkedin</h1>
+            <a href="https://www.linkedin.com/in/gonzalo-l%C3%B3pez-luque-388551269/" target="_blank">
+                Gonzalo López Luque
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+        <div class="tele">
+            <h1>Telefono</h1>
+            <p>+34 666 666 666</p>
+        </div>
+    </div>
+
+    <script>
+        // Modo oscuro
+        const botonLuna = document.querySelector("header button i.fa-moon");
+        let modoOscuro = false;
+
+        botonLuna.addEventListener("click", () => {
+            if (!modoOscuro) {
+                document.documentElement.style.setProperty('--color-fondo', '#323232');
+                document.documentElement.style.setProperty('--color-texto', '#DDD0C8');
+                document.documentElement.style.setProperty('--color-borde', '#DDD0C8');
+                document.documentElement.style.setProperty('--color-header-bg', '#DDD0C8');
+                document.documentElement.style.setProperty('--color-header-text', '#323232');
+                document.documentElement.style.setProperty('--color-boton-hover', 'rgba(0,0,0,0.1)');
+                document.documentElement.style.setProperty('--color-linea', '#DDD0C8');
+                document.documentElement.style.setProperty('--color-link', '#DDD0C8');
+                document.documentElement.style.setProperty('--color-link-hover', '#323232');
+                modoOscuro = true;
+            } else {
+                document.documentElement.style.setProperty('--color-fondo', '#DDD0C8');
+                document.documentElement.style.setProperty('--color-texto', '#323232');
+                document.documentElement.style.setProperty('--color-borde', '#323232');
+                document.documentElement.style.setProperty('--color-header-bg', '#323232');
+                document.documentElement.style.setProperty('--color-header-text', '#DDD0C8');
+                document.documentElement.style.setProperty('--color-boton-hover', 'rgba(255,255,255,0.1)');
+                document.documentElement.style.setProperty('--color-linea', '#323232');
+                document.documentElement.style.setProperty('--color-link', '#323232');
+                document.documentElement.style.setProperty('--color-link-hover', '#000000');
+                modoOscuro = false;
+            }
+        });
+
+        // ------------------------------
+        // Traducción ENG/ESP (sin cambiar tu HTML)
+        // ------------------------------
+        const headerButtons = document.querySelectorAll("header button");
+        const langBtn = headerButtons[5]; // El sexto botón es "ENG"
+
+        let idioma = "es";
+
+        const dic = {
+            es: {
+                title: "Curriculum",
+                header: ["Sobre mi", "Experiencia", "Educación", "Contacto"],
+                langBtn: "ENG",
+
+                sobreRole: "Desarrollador de Aplicaciones Web",
+                sobreDesc: "Programador Junior interesado tanto en el backend como el frontend. Me considero creativo y con capacidad para trabajar en equipo. Busco seguir aprendiendo y aportar valor en proyectos que me permitan crecer profesionalmente.",
+
+                expTitle: "Experiencia",
+                regaLink: "Página web de Regacom",
+                regaDesc: "En Regacom trabaje actualizando su página web para darle un toque más moderno y atractivo. Además me enseñaron el funcionamiento de sus placas, que utilizan Python y Arduino para sus células de riego.",
+                chapaLink: "Chapatriste",
+                chapaDesc: "Chapatriste fue un proyecto que desarrollé junto con Timber Films, participando como Animador 3D principalmente. Se encuentra en Steam y esta creado en Unity con programación en C#.",
+                itchLink: "Juegos en itch.io",
+                itchDesc: "He participado en el desarrollo de multiples juegos en itch.io como programador y artista. Entre ellos se encuentran \"The Right Amount\" o \"One Coin Chaos\".",
+
+                eduTitle: "Educación",
+                eusaH1: "Animaciones 3D, Juegos y Entorno Interactivos",
+                eusaP: "Durante mi formación en el ciclo formativo de Animaciones 3D aprendí a modelar, animar y diseñar aplicado al desarrollo de videojuegos.",
+                soteroH1: "Desarrollo de Aplicaciones Web",
+                soteroP: "En mi formación en el ciclo formativo de Desarrollo de Aplicaciones Web aprendí a usar diferentes lenguajes de programación entre los que se encuentran HTML, CSS, JavaScript, MariaDB o Java.",
+                inglesH1: "Inglés con nivel de B2 otorogado por Cambridge",
+
+                contactoTitle: "Contacto",
+                emailH1: "Email",
+                telefonoH1: "Telefono"
+            },
+            en: {
+                title: "Resume",
+                header: ["About me", "Experience", "Education", "Contact"],
+                langBtn: "ESP",
+
+                sobreRole: "Web Application Developer",
+                sobreDesc: "Junior programmer interested in both backend and frontend. I consider myself creative and a good team player. I aim to keep learning and add value to projects that help me grow professionally.",
+
+                expTitle: "Experience",
+                regaLink: "Regacom website",
+                regaDesc: "At Regacom I worked on updating their website to give it a more modern and attractive look. I also learned how their boards work, which use Python and Arduino for their irrigation cells.",
+                chapaLink: "Chapatriste",
+                chapaDesc: "Chapatriste was a project developed together with Timber Films, where I mainly worked as a 3D Animator. It is available on Steam and was built in Unity with C# programming.",
+                itchLink: "Games on itch.io",
+                itchDesc: "I have contributed to the development of multiple games on itch.io as a programmer and artist, including \"The Right Amount\" and \"One Coin Chaos\".",
+
+                eduTitle: "Education",
+                eusaH1: "3D Animation, Games and Interactive Environments",
+                eusaP: "During my vocational training in 3D Animation I learned modeling, animation and design applied to video game development.",
+                soteroH1: "Web Application Development",
+                soteroP: "In my Web Application Development training I learned various programming languages including HTML, CSS, JavaScript, MariaDB and Java.",
+                inglesH1: "English level B2 certified by Cambridge",
+
+                contactoTitle: "Contact",
+                emailH1: "Email",
+                telefonoH1: "Phone"
+            }
+        };
+
+        function setLinkText(anchor, text) {
+            // Mantener el icono al final
+            const iconHTML = '<i class="fa-solid fa-arrow-up-right-from-square"></i>';
+            anchor.innerHTML = `${text}\n                    ${iconHTML}`;
+        }
+
+        function cambiarIdioma(lang) {
+            // <title>
+            document.querySelector("title").textContent = dic[lang].title;
+
+            // Botones de header (sin tocar el icono de luna ni los onclicks)
+            headerButtons[1].textContent = dic[lang].header[0];
+            headerButtons[2].textContent = dic[lang].header[1];
+            headerButtons[3].textContent = dic[lang].header[2];
+            headerButtons[4].textContent = dic[lang].header[3];
+            langBtn.textContent = dic[lang].langBtn;
+
+            // Sobre mí
+            document.querySelector(".sobre h2").textContent = dic[lang].sobreRole;
+            document.querySelector(".sobre p").textContent = dic[lang].sobreDesc;
+
+            // Experiencia (títulos H1 y descripciones)
+            document.getElementById("experiencia").textContent = dic[lang].expTitle;
+
+            const regaA = document.querySelector(".rega h1 a");
+            setLinkText(regaA, dic[lang].regaLink);
+            document.querySelector(".rega p").textContent = dic[lang].regaDesc;
+
+            const chapaA = document.querySelector(".chapa h1 a");
+            setLinkText(chapaA, dic[lang].chapaLink);
+            document.querySelector(".chapa p").textContent = dic[lang].chapaDesc;
+
+            const itchA = document.querySelector(".itch h1 a");
+            setLinkText(itchA, dic[lang].itchLink);
+            document.querySelector(".itch p").textContent = dic[lang].itchDesc;
+
+            // Educación
+            document.getElementById("educacion").textContent = dic[lang].eduTitle;
+            document.querySelector(".eusa h1").textContent = dic[lang].eusaH1;
+            document.querySelector(".eusa p").textContent = dic[lang].eusaP;
+            document.querySelector(".sotero h1").textContent = dic[lang].soteroH1;
+            document.querySelector(".sotero p").textContent = dic[lang].soteroP;
+            document.querySelector(".ing h1").textContent = dic[lang].inglesH1;
+
+            // Contacto
+            document.getElementById("contacto").textContent = dic[lang].contactoTitle;
+            document.querySelector(".email h1").textContent = dic[lang].emailH1;
+            document.querySelector(".tele h1").textContent = dic[lang].telefonoH1;
+            // El nombre de LinkedIn se mantiene igual (propio)
+        }
+
+        // Toggle al pulsar el botón ENG/ESP
+        langBtn.addEventListener("click", () => {
+            if (idioma === "es") {
+                cambiarIdioma("en");
+                idioma = "en";
+            } else {
+                cambiarIdioma("es");
+                idioma = "es";
+            }
+        });
+    </script>
+
 </body>
 
 </html>

@@ -1,9 +1,8 @@
-/* styles.css */
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden; /* Muy importante para evitar scroll nativo */
+  overflow: hidden; 
   font-family: Arial, sans-serif;
 }
 
@@ -77,4 +76,33 @@ section:nth-of-type(6) {
 
 .c1{
   width: 100%;
+}
+
+.lang-selector {
+  position: fixed;
+  bottom: 20px;     
+  right: 20px;      
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: transform 0.3s ease;
+  width: auto;
+}
+
+.lang-selector:hover {
+  transform: scale(1.05);
+}
+
+.lang-selector select {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.lang-selector select option {
+  color: black;
 }
