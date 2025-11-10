@@ -62,7 +62,7 @@ header button:hover {
 }
 
 .sobre img {
-    width: 400px;
+    width: 85%;
     margin: 40px 50px 40px 40px;
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
@@ -70,15 +70,16 @@ header button:hover {
 
 .sobre h1 { font-size: 60px; margin-top: 60px; }
 .sobre h2 { font-size: 35px; margin-top: -30px; }
-.sobre p { margin-right: 100px; font-size: 30px; text-align: justify; }
+.sobre p { margin-right: 100px; font-size: 30px; text-align: justify; width: 90%;}
 
 .tecnologias {
     display: flex;
-    gap: 50px;
-    font-size: 55px;
-    margin-top: 100px;
+    gap: 5%;
+    font-size: 250%;
+    margin-top: 5%;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .tecnologias i {
@@ -110,20 +111,21 @@ header button:hover {
 
 .exp {
     display: flex;
-    gap: 60px;
+    gap: 5%;
     margin-top: 50px;
     align-items: center;
     justify-content: center;
+    align-items: stretch;
 }
 
 .rega, .chapa, .itch {
-    width: 475px;
+    width: 25%;
     background-color: var(--color-header-bg);
     color: var(--color-header-text);
     padding: 30px 20px 20px 20px;
     border-radius: 20px;
     border: 1px solid var(--color-borde);
-    height: 500px;
+    height: 100%;
     transition: all 0.3s ease-in-out;
 }
 
@@ -131,8 +133,8 @@ header button:hover {
 .rega p, .chapa p, .itch p { text-align: justify; margin-right: 30px; margin-top: -10px; margin-bottom: 30px; font-size: 20px; }
 
 .rega img, .chapa img, .itch img {
-    width: 460px;
-    height: 275px;
+    width: 95%;
+    height: 40%;
     border-radius: 20px;
     display: block;
     margin: 0 auto;
@@ -161,8 +163,8 @@ header button:hover {
 }
 
 .eusa, .sotero {
-    width: 550px;
-    height: 250px;
+    width: 30%;
+    height: 300px;
     background-color: var(--color-header-bg);
     color: var(--color-header-text);
     padding: 30px;
@@ -189,7 +191,7 @@ header button:hover {
 
 .cont {
     display: flex;
-    gap: 160px;
+    gap: 10%;
     margin-top: 50px;
     align-items: center;
     justify-content: center;
@@ -220,4 +222,168 @@ header button:hover {
     color: var(--color-header-text);
 }
 
+/* ============================= */
+/*         RESPONSIVE            */
+/* ============================= */
+
+/* Tablets (hasta 1024px) */
+@media (max-width: 1024px) {
+    header {
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+
+    .sobre img {
+        width: 70%;
+        margin: 20px 0;
+    }
+
+    .sobre p {
+        margin: 0 auto;
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .tecnologias {
+        flex-wrap: wrap;
+        font-size: 200%;
+        gap: 20px;
+    }
+
+    .exp {
+        flex-wrap: wrap;
+    }
+
+    .rega, .chapa, .itch {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .edu {
+        flex-wrap: wrap;
+    }
+
+    .eusa, .sotero {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .ing {
+        width: 80%;
+    }
+
+    .cont {
+        width: 80%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .cont > div {
+        width: 100%;
+    }
+}
+
+/* Móviles grandes (hasta 768px) */
+@media (max-width: 768px) {
+    header {
+        top: 10px;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    header button {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .sobre h1 {
+        font-size: 40px;
+    }
+
+    .sobre h2 {
+        font-size: 25px;
+        margin-top: -10px;
+    }
+
+    .experiencia {
+        font-size: 40px;
+    }
+
+    .rega h1, .chapa h1, .itch h1 {
+        font-size: 25px;
+    }
+
+    .rega p, .chapa p, .itch p {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .tecnologias {
+        font-size: 180%;
+    }
+}
+
+/* Móviles pequeños (hasta 480px) */
+@media (max-width: 480px) {
+    header {
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre h1 {
+        font-size: 32px;
+    }
+
+    .sobre h2 {
+        font-size: 20px;
+    }
+
+    .sobre p {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .tecnologias {
+        font-size: 150%;
+        gap: 15px;
+    }
+
+    .exp, .edu, .cont {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .rega, .chapa, .itch, .eusa, .sotero {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .ing h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .cont {
+        gap: 20px;
+    }
+
+    .cont h1 {
+        font-size: 22px;
+    }
+
+    .cont p, .cont a {
+        font-size: 18px;
+        word-break: break-word;
+    }
+}
 
