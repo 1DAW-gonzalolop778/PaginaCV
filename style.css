@@ -222,11 +222,7 @@ header button:hover {
     color: var(--color-header-text);
 }
 
-/* ============================= */
-/*         RESPONSIVE            */
-/* ============================= */
-
-/* Tablets (hasta 1024px) */
+/*parte responsive*/
 @media (max-width: 1024px) {
     header {
         width: 95%;
@@ -292,7 +288,6 @@ header button:hover {
     }
 }
 
-/* Móviles grandes (hasta 768px) */
 @media (max-width: 768px) {
     header {
         top: 10px;
@@ -332,7 +327,6 @@ header button:hover {
     }
 }
 
-/* Móviles pequeños (hasta 480px) */
 @media (max-width: 480px) {
     header {
         width: 95%;
